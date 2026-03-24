@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", "Times New Roman", "sans-serif";
+  text-align: center;
+}
+.content {
+  font-size: 20px;
+  padding: 20px 50px;
+  border: 10px solid black;
+  border-radius: 20px;
+  margin: 100px;
+}
+
+.description,
+.ingredients,
+.steps {
+  margin: 40px 10px;
+}
+.content ul li {
+  list-style: none;
+}
+.content img {
+  width: 450px;
+  height: 450px;
+  padding: 20px;
+}
+.content a {
+  color: #000;
+  font-weight: bold;
+}
+.content a:hover {
+  color: red;
+  text-decoration: underline;
+}
